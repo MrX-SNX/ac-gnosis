@@ -112,7 +112,7 @@ const useWalletConnect = () => {
         const { requiredNamespaces } = params;
 
         const fakeSafeAccountForL1 = `${EVMBasedNamespaces}:${1}:0x46abFE1C972fCa43766d6aD70E1c1Df72F4Bb4d1`;
-        const fakeSafeChain = `${EVMBasedNamespaces}:${11}`;
+        const fakeSafeChain = `${EVMBasedNamespaces}:${1}`;
         const safeAccount = `${EVMBasedNamespaces}:${10}:0x46abFE1C972fCa43766d6aD70E1c1Df72F4Bb4d1`;
         const safeChain = `${EVMBasedNamespaces}:${10}`;
         // we accept all events like chainChanged & accountsChanged (even if they are not compatible with the Safe)
@@ -125,7 +125,7 @@ const useWalletConnect = () => {
               'eip155:10': {
                 accounts: [safeAccount], // only the Safe account
                 chains: [safeChain], // only the Safe chain
-                methods: ['eth_sign'], // only the Safe methods
+                methods: compatibleSafeMethods, // only the Safe methods
                 events: safeEvents,
               },
               'eip155:1': {

@@ -5184,7 +5184,7 @@
     lodash.isequal "4.5.0"
     uint8arrays "^3.1.0"
 
-"@walletconnect/core@2.13.3", "@walletconnect/core@^2.13.3":
+"@walletconnect/core@2.13.3", "@walletconnect/core@^2.10.4":
   version "2.13.3"
   resolved "https://registry.yarnpkg.com/@walletconnect/core/-/core-2.13.3.tgz#d98fccefe36c6b365812fd0f7237a0f9634bafb6"
   integrity sha512-TdF+rC6rONJGyOUtt/nLkbyQWjnkwbD3kXq3ZA0Q7+tYtmSjTDE4wbArlLbHIbtf69g+9/DpEVEQimWWcEOn2g==
@@ -5797,7 +5797,7 @@
     js-sha3 "0.8.0"
     query-string "6.13.5"
 
-"@walletconnect/web3wallet@^1.12.3":
+"@walletconnect/web3wallet@^1.9.3":
   version "1.12.3"
   resolved "https://registry.yarnpkg.com/@walletconnect/web3wallet/-/web3wallet-1.12.3.tgz#26765f52cb653bd3696198ce4cc871df2061a01e"
   integrity sha512-HBzYDjf3ZVzyTCqycyMjJnn/1sQtRe0beGc3qtq9bLX/dmezkO6Oc1lg1WlvxT7KtTqKx41usw5tjiwfNZ2+ug==
