@@ -10,9 +10,9 @@
     "@gnosis.pm/safe-core-sdk": "^3.2.0",
     "@gnosis.pm/safe-ethers-lib": "^1.7.0",
     "@synthetixio/v3-theme": "^1.0.2",
-    "@walletconnect/core": "^2.10.4",
+    "@walletconnect/core": "^2.13.3",
     "@walletconnect/utils": "^2.10.4",
-    "@walletconnect/web3wallet": "^1.9.3",
+    "@walletconnect/web3wallet": "^1.12.3",
     "@web3-onboard/core": "^2.21.2",
     "@web3-onboard/injected-wallets": "^2.10.9",
     "@web3-onboard/ledger": "^2.5.2",
@@ -55,15 +55,7 @@
     "test": "react-app-rewired test"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
