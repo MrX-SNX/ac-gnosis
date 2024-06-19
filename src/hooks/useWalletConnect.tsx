@@ -95,7 +95,7 @@ const useWalletConnect = () => {
         .map((topic) => activeSessions[topic])
         .find(
           (session) =>
-            session.namespaces[EVMBasedNamespaces].accounts[0] ===
+            session?.namespaces[EVMBasedNamespaces]?.accounts[0] ===
             `${EVMBasedNamespaces}:10:0x46abFE1C972fCa43766d6aD70E1c1Df72F4Bb4d1`,
         );
 
